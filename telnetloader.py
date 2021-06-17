@@ -1,6 +1,4 @@
 #!/usr/bin/python
-# yoo, source edit by WP
-# downloaded from only4skillers.eu
 
 import sys, re, os, socket, time
 from multiprocessing import Process
